@@ -28,7 +28,7 @@ New elections are triggered when coordinators fail
 
 # Installation
 bash# Clone this repository  
-git clone https://github.com/yourusername/bully-algorithm.git  
+git clone https://github.com/yourusername/Bully_election_algorithm.git  
 
 # Navigate to the project directory
 cd bully-algorithm  
