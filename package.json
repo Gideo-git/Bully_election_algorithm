@@ -1,0 +1,17 @@
+{
+  "name": "bully_election_algorithm",
+  "version": "1.0.0",
+  "description": "A Node.js implementation of the Bully Election Algorithm for distributed systems coordination.\r # Overview\r The Bully Election Algorithm is a method for dynamically electing a coordinator or leader among a group of distributed computer processes. This implementation simulates multiple processes running on the same machine, communicating via TCP/IP sockets over different ports.",
+  "main": "bully-algorithm-demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon bully-algorithm-demo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "EventEmitter": "^1.0.0",
+    "net": "^1.0.2"
+  }
+}
