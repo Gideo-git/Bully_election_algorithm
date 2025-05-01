@@ -1,15 +1,15 @@
-Bully Election Algorithm Implementation
+# Bully Election Algorithm Implementation
 A Node.js implementation of the Bully Election Algorithm for distributed systems coordination.
-Overview
+# Overview
 The Bully Election Algorithm is a method for dynamically electing a coordinator or leader among a group of distributed computer processes. This implementation simulates multiple processes running on the same machine, communicating via TCP/IP sockets over different ports.
 
-Tech Stack
+# Tech Stack
 
 Programming Language: JavaScript
 Runtime Environment: Node.js
 Communication: TCP sockets
 
-Features
+# Features
 
 Complete implementation of the Bully Election Algorithm
 Simulation of process crashes and recoveries
@@ -17,7 +17,7 @@ Event-based architecture for real-time notification of coordinator elections
 Configurable number of processes
 Robust message handling with JSON message format
 
-How It Works
+# How It Works
 The Bully Election Algorithm follows these principles:
 
 Process with the highest ID becomes the coordinator
@@ -26,7 +26,7 @@ During an election, processes only communicate with higher-ID processes
 If a process receives no responses, it becomes the coordinator
 New elections are triggered when coordinators fail
 
-Installation
+# Installation
 bash# Clone this repository
 git clone https://github.com/yourusername/bully-algorithm.git
 
